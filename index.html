@@ -1,54 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>Melissa Mangos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melissa Mangos - Engineering Manager</title>
+<meta name="description" content="Melissa Mangos · Engineering Manager specializing in front-end platform infrastructure, team health, and pragmatic technical leadership.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="main">
-		<div class="header">
-			<h1>Melissa Mangos</h1>
-			<div class="description">
-				<p class="subtitle">
-					Front-end developer @ 
-					<span class="white-underline">
-						<a href="https://www.ratehub.ca" target="_blank">ratehub.ca</a>
-					</span>
-				</p>
-				<p class="subtitle">
-					Founder & executive director @
-					<span class="white-underline">
-						<a href="https://sudolabs.ca" target="_blank">sudolabs</a>
-					</span>
-				</p>
-			</div>
-			<div class="resume-link">
-				<a class="button" href="https://drive.google.com/file/d/1az99wwgJc5cUtt3db8UhkZGbVvijadgq/view?usp=sharing" target="_blank">
-					view resume
-				</a>
-			</div>
-		</div>
-		<div class="body">
-			<div class="links">
-				<div class="single-link">
-					<span class="gradient-underline">
-						<a href="mailto:mmangos32@gmail.com" target="_blank">mmangos32@gmail.com</a>
-					</span>
-				</div>
-				<div class="single-link">
-					<span class="gradient-underline">
-						<a href="https://github.com/melissamangos" target="_blank">github.com/melissamangos</a>
-					</span>
-				</div>
-				<div class="single-link">
-					<span class="gradient-underline">
-						<a href="https://linkedin.com/in/melissamangos" target="_blank">linkedin.com/in/melissamangos</a>
-					</span>
-				</div>
-			</div>
-		</div>
-	</div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <h1 class="hero__title">Melissa Mangos</h1>
+        <p class="hero__subtitle">Engineering Manager<br />Front-End Platform &amp; Infrastructure</p>
+        <nav class="hero__links" aria-label="Contact links">
+          <a href="mailto:mmangos32@gmail.com">Email</a>
+          <a href="https://linkedin.com/in/melissamangos" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/melissamangos" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://drive.google.com/file/d/1EuvDbXQNGvEbsKrDdCPCBjyCE0i5ka4t/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+        </nav>
+      </div>
+      <img class="hero__photo" src="melissa-finn.jpg" alt="Melissa Mangos smiling in a park with her dog Finn" width="280" height="280">
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ ORIGIN / NARRATIVE ============ -->
+    <section class="section section--narrative">
+      <div class="section__inner">
+        <p class="narrative__lede">I knew I wanted to lead the moment I watched a Director debug automated tests with me.</p>
+        <p>It was my first job in tech, a QA internship, and he was someone who sat in rooms with the business one hour and sat beside an intern untangling a flaky test the next. He knew the system well enough to dig in with senior engineers when something was really broken - and he still made time for me. That balance, technical depth held alongside genuine presence with people, is what I've tried to build into every team I've led since.</p>
+        <p>A few years later, at Queen's, I asked a non-profit's CEO if I could open a Kingston chapter. She said I didn't have the experience. So I built my own - founding Sudo Labs to teach women and gender minorities to code, from the ground up, with a team of volunteers I recruited myself.</p>
+        <p>When I got to Ratehub, I told my manager directly: I want your job. He believed me enough to start including me in interviews and hiring decisions, and a few years later, I had it.</p>
+      </div>
+    </section>
+
+    <!-- ============ VALUES ============ -->
+    <section class="section section--values">
+      <div class="section__inner">
+        <h2 class="section__heading">How I lead.</h2>
+        <div class="values">
+
+          <article class="value">
+            <svg class="value__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <h3 class="value__title">Dig deep</h3>
+            <p class="value__body">I lead with questions before judgment. When something breaks - a deadline, a relationship, a system - I want to understand the root before I respond to the symptom.</p>
+          </article>
+
+          <article class="value">
+            <svg class="value__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21l7.78-7.55 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+            <h3 class="value__title">Lead with empathy</h3>
+            <p class="value__body">I treat my reports as experts and as humans. That means real autonomy to solve their own problems, and space held open for the conversations that are hard to start.</p>
+          </article>
+
+          <article class="value">
+            <svg class="value__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.6h7.6z"/>
+            </svg>
+            <h3 class="value__title">Take ownership</h3>
+            <p class="value__body">I measure my own success through my team's outcomes, not my own output. I'll push back when something threatens our ability to do good work, and I'll own the call when it's mine to make.</p>
+          </article>
+
+          <article class="value">
+            <svg class="value__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 12h4l3 8 4-16 3 8h4"/>
+            </svg>
+            <h3 class="value__title">Stay pragmatic</h3>
+            <p class="value__body">I'm energized by systemic problems - the ones with a root cause worth finding. I'd rather build the process that prevents the fire than be praised for fighting it well.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ IMPACT ============ -->
+    <section class="section section--impact">
+      <div class="section__inner">
+        <h2 class="section__heading">What pragmatic leadership looks like in practice</h2>
+        <p class="section__lede">At Ratehub, our front-end team was shipping more hotfixes than we could sustain. Rather than asking the team to simply move faster, I built a measurement framework first.</p>
+
+        <div class="chart-card">
+          <div class="chart-card__header">
+            <h3>Hotfixes per release</h3>
+            <p>8-week rolling average, the methodology used for our SLI/SLO success criteria</p>
+          </div>
+          <div class="chart-card__canvas-wrap">
+            <canvas id="sliChart" role="img" aria-label="Line chart showing hotfix rate declining from 12 percent to 2 percent across releases after introducing observability standards"></canvas>
+          </div>
+          <div class="chart-card__stats">
+            <div class="stat">
+              <span class="stat__value">12%&nbsp;→&nbsp;2%</span>
+              <span class="stat__label">hotfix rate, peak to sustained low</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">2&nbsp;weeks&nbsp;→&nbsp;2.5&nbsp;days</span>
+              <span class="stat__label">time to release</span>
+            </div>
+          </div>
+          <p class="chart-card__note">Success was defined upfront, not declared after the fact: three consecutive releases meeting the hotfix error budget (2%), evaluated three weeks after each release branch closed.</p>
+        </div>
+
+        <div class="impact-grid">
+          <article class="impact-card">
+            <h3>Planning, grounded in data</h3>
+            <p>Estimation at Ratehub used to live in one person's head. I rebuilt it as a shared framework - engineers estimating in sprints with documented assumptions, rolled up into quarterly and t-shirt-sized annual planning adopted across the whole engineering org.</p>
+          </article>
+          <article class="impact-card">
+            <h3>Hiring, designed like a system</h3>
+            <p>I built a three-round hiring process for a QA Automation role from scratch - structured rubrics, value-based interview guides, a live technical assessment - so that good hiring didn't depend on who happened to be in the room.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SUDO LABS ============ -->
+    <section class="section section--sudo">
+      <div class="section__inner">
+        <h2 class="section__heading">Sudo Labs</h2>
+        <p class="section__lede">Founder &amp; Executive Director, 2016–2020</p>
+        <p>After being told I didn't have the experience to run someone else's chapter, I started my own organization - teaching women and gender minorities to code in Kingston, with volunteers I recruited and a curriculum we built together.</p>
+
+        <div class="sudo-stats">
+          <div class="stat">
+            <span class="stat__value">12+</span>
+            <span class="stat__label">workshops run</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">230</span>
+            <span class="stat__label">learners reached</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">90%</span>
+            <span class="stat__label">first-time attendees</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">87%</span>
+            <span class="stat__label">would recommend to a friend</span>
+          </div>
+        </div>
+
+        <div class="sudo-press">
+          <a href="https://www.queensu.ca/alumnireview/articles/2017-05-02/the-future-of-coding-is-female-sudo" target="_blank" rel="noopener">Queen's Alumni Review →</a>
+          <a href="https://www.thewhig.com/2016/07/03/empowering-women-through-computer-programming" target="_blank" rel="noopener">The Whig-Standard →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section section--experience">
+      <div class="section__inner">
+        <h2 class="section__heading">Where I've worked</h2>
+        <div class="timeline">
+          <div class="timeline__item">
+            <p class="timeline__role">Software Development Manager</p>
+            <p class="timeline__meta">Ratehub.ca · 2025</p>
+          </div>
+          <div class="timeline__item">
+            <p class="timeline__role">Lead Software Engineer, Front-End Infrastructure</p>
+            <p class="timeline__meta">Ratehub.ca · 2023–2025</p>
+          </div>
+          <div class="timeline__item">
+            <p class="timeline__role">Senior Software Engineer</p>
+            <p class="timeline__meta">Ratehub.ca · 2022–2023</p>
+          </div>
+          <div class="timeline__item">
+            <p class="timeline__role">Front-End Engineer II</p>
+            <p class="timeline__meta">Ratehub.ca · 2017–2022</p>
+          </div>
+        </div>
+        <a class="resume-link" href="https://drive.google.com/file/d/1EuvDbXQNGvEbsKrDdCPCBjyCE0i5ka4t/view?usp=sharing" target="_blank" rel="noopener">View full resume →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Built simply with HTML & CSS.</p>
+    <nav class="footer__links" aria-label="Contact links">
+      <a href="mailto:mmangos32@gmail.com">mmangos32@gmail.com</a>
+      <a href="https://linkedin.com/in/melissamangos" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/melissamangos" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
