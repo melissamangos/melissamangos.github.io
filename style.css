@@ -343,14 +343,8 @@ p:last-child { margin-bottom: 0; }
 
 .impact-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--space-md);
-}
-
-@container (min-width: 40rem) {
-  .impact-grid {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 .impact-card {
