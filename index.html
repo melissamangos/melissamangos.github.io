@@ -94,14 +94,14 @@
         <div class="chart-card">
           <div class="chart-card__header">
             <h3>Hotfixes per release</h3>
-            <p>Raw hotfix rate per release, Jan 2023 – Sep 2024</p>
+            <p>8-week rolling average, the methodology used for our SLI/SLO success criteria</p>
           </div>
           <div class="chart-card__canvas-wrap">
             <canvas id="sliChart" role="img" aria-label="Line chart showing per-release hotfix rate declining from roughly 15% in early 2023 toward near zero, with a highlighted region showing the first eight consecutive releases meeting the 2% error budget target"></canvas>
           </div>
           <div class="chart-card__stats">
             <div class="stat">
-              <span class="stat__value">~16%&nbsp;→&nbsp;≤ 2%</span>
+              <span class="stat__value">12%&nbsp;→&nbsp;2%</span>
               <span class="stat__label">hotfix rate, peak to sustained low</span>
             </div>
             <div class="stat">
@@ -109,7 +109,7 @@
               <span class="stat__label">time to release</span>
             </div>
           </div>
-          <p class="chart-card__note">Success was defined upfront: eight consecutive releases meeting the hotfix error budget (≤2%). First verified June 2024 - and the improvement held.</p>
+          <p class="chart-card__note">Success was defined upfront: eight consecutive weeks meeting the hotfix error budget (≤2%). First verified June 2024 - and the improvement held.</p>
         </div>
 
         <div class="impact-grid">
