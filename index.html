@@ -92,23 +92,23 @@
 
         <div class="chart-card">
           <div class="chart-card__header">
-            <h3>Hotfixes per release</h3>
-            <p>8-week rolling average, the methodology used for our SLI/SLO success criteria</p>
+            <h3>Hotfix rate, rolling 8 weeks</h3>
+            <p>Hotfix commits as a share of all commits across a rolling 8-week window, the methodology used for our SLI/SLO success criteria</p>
           </div>
           <div class="chart-card__canvas-wrap">
-            <canvas id="sliChart" role="img" aria-label="Line chart showing per-release hotfix rate declining from roughly 15% in early 2023 toward near zero, with a highlighted region showing the first eight consecutive releases meeting the 2% error budget target"></canvas>
+            <canvas id="sliChart" role="img" aria-label="Line chart showing the rolling 8-week hotfix rate declining from 12.6% in March 2023 to under 2% in July 2024, with a highlighted region marking the three releases where the rolling 8-week rate met the 2% target, and the rate settling between roughly 2% and 3.5% afterward"></canvas>
           </div>
           <div class="chart-card__stats">
             <div class="stat">
-              <span class="stat__value">12%&nbsp;→&nbsp;2%</span>
-              <span class="stat__label">hotfix rate, peak to sustained low</span>
+              <span class="stat__value">12.6%&nbsp;→&nbsp;1.7%</span>
+              <span class="stat__label">8-week hotfix rate, peak to first SLO met (July 2024)</span>
             </div>
             <div class="stat">
               <span class="stat__value">2&nbsp;weeks&nbsp;→&nbsp;2.5&nbsp;days</span>
               <span class="stat__label">time to release</span>
             </div>
           </div>
-          <p class="chart-card__note">Success was defined upfront: eight consecutive weeks meeting the hotfix error budget (≤2%). First verified June 2024 - and the improvement held.</p>
+          <p class="chart-card__note">Success was defined upfront: a hotfix rate of ≤2% across an eight-week window. First met in July 2024, and the rate stayed under 4% through September.</p>
         </div>
 
         <div class="impact-grid">
