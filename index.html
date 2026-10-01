@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Melissa Mangos - Engineering Manager</title>
-<meta name="description" content="Melissa Mangos · Engineering Manager specializing in front-end platform infrastructure, team health, and pragmatic technical leadership.">
+<title>Melissa Mangos - Engineering Manager | Staff Front-End Engineer</title>
+<meta name="description" content="Melissa Mangos · Engineering Manager and Staff Front-End Engineer specializing in front-end platform, architecture, and accessibility. 8+ years in front-end engineering, 4+ years leading teams.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
     <div class="hero__inner">
       <div class="hero__text">
         <h1 class="hero__title">Melissa Mangos</h1>
-        <p class="hero__subtitle">Engineering Manager<br />Front-End Platform &amp; Infrastructure</p>
+        <p class="hero__subtitle">Engineering Manager | Staff Front-End Engineer<br />Platform, Architecture &amp; Accessibility</p>
         <nav class="hero__links" aria-label="Contact links">
           <a href="mailto:mmangos32@gmail.com">Email</a>
           <a href="https://linkedin.com/in/melissamangos" target="_blank" rel="noopener">LinkedIn</a>
@@ -136,6 +136,14 @@
             <h3>Leveling, made legible</h3>
             <p>To support our engineering team and provide new managers with clear guidance, I built upon our foundational competency matrix to enhance its operational clarity. I translated high&#8209;level rubric criteria into an accessible framework using concrete examples and clear scope at each level - defining growth from executing pre&#8209;scoped tasks to driving cross&#8209;functional direction - ensuring our career progression pathways scaled smoothly with the team.</p>
           </article>
+          <article class="impact-card">
+            <h3>Accessibility, fixed at the source</h3>
+            <p>A shared rich&#8209;text serializer rendered every CMS table in two apps with no <code>&lt;thead&gt;</code>, <code>&lt;th&gt;</code> or <code>scope</code>. Before touching it, I audited all 55 published tables: only 4 declared header state, and the other 51 faked a header with bold text. A bold&#8209;row heuristic would have been easy and wrong, so I honoured only real header state. The 4 got proper semantics and the other 51 shipped byte&#8209;identical, with no content migration.</p>
+          </article>
+          <article class="impact-card">
+            <h3>Audits that correct themselves</h3>
+            <p>Auditing 24 CMS block types against production data produced 31 findings, and 8 turned out to be wrong, including three escalations built on a count that had queried the wrong corpus. The rule that came out of it: a count isn't evidence until the corpus is named and proven complete.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -179,6 +187,10 @@
       <div class="section__inner">
         <h2 class="section__heading">Where I've worked</h2>
         <div class="timeline">
+          <div class="timeline__item">
+            <p class="timeline__role">Payload CMS Consultant (Contract)</p>
+            <p class="timeline__meta">Confidential client, sports media platform · 2026–present</p>
+          </div>
           <div class="timeline__item">
             <p class="timeline__role">Software Development Manager</p>
             <p class="timeline__meta">Ratehub.ca · 2025</p>
